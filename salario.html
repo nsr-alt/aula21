@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Vendas</title>
+    <link rel="stylesheet" href="salario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Vendas</h1>
+    
+        <p>Informe o nome do Funcionário: <br> <input type="text" id="funcionario" placeholder="Exemplo: Marcos"></p>
+        <p>Informe o Salário Base: <br> <input type="number" id="salario" placeholder="Exemplo: R$1200.00"></p>
+        <p>Informe o Valor de Vendas no Mês: <br> <input type="number" id="vendas" placeholder="Exemplo: R$630.00"></p>
+        <p>Informe o Percentual de Comissão: <br> <input type="number" id="comissao" placeholder="Exemplo: 2%"></p>
+
+        <button onclick="calcular()">Verificar</button>
+
+        <p id="resultado">
+
+        </p>
+    </div>
+
+    <script src="salario.js"></script>
+</body>
+</html>
